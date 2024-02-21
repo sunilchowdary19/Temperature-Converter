@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+}
+.container{
+  display:flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  align-items: center;
+  gap:30px;
+  background-color: rgb(153, 56, 134);
+  margin:80px 400px;
+  padding:20px;
+  border:2px solid black;
+  box-shadow: 2px;
+  
+  
+}
+.heading{
+  color:orange;
+
+}
+body{
+  background-color:rgb(32, 168, 175);
+}
+.res{
+  border:2px solid red;
+  border-radius:4px;
+  font-size: medium;
+  font-weight: 200;
+
+}
+.res:hover{
+  background-color:red;
+  color:yellow;
+  transform: translateY(-3px);
+  transform:scale(1.5);
+  cursor:pointer;
+
+  
+}
+#Celsius,#Fahrenheit,#Kelvin{
+  color:gold;
+  font-size:20px;
+  font-family: serif;
+}
+@media (max-width:1000px){
+  .container{
+    display:flex;
+    flex-direction: column;
+    margin-left:20px;
+    width:50%;
+    margin-left:100px;
+  }
+  
+}
